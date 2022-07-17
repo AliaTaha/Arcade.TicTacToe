@@ -13,7 +13,7 @@
 }   
 
 td {
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -23,3 +23,21 @@ body {
     display: flex;
     justify-content: center;   
 }
+
+.row1 {
+    border-top: hidden;
+}
+
+.row3 {
+    border-bottom: hidden;
+}
+
+#item00, #item10, #item20 {
+    border-left: hidden;
+}
+
+#item02, #item12, #item22 {
+    border-right: hidden;
+}
+
+
