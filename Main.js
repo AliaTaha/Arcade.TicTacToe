@@ -1,3 +1,11 @@
+// create an array to hold boardData in js
+// include smaller arrays of individual rules
+let boardData = [
+  [0, 0, 0],
+  [0, 0, 0],
+  [0, 0, 0],
+];
+
 // declare and pull CSS selectors from DOM
 const cellElements = document.querySelectorAll(".cell");
 console.log(cellElements);
